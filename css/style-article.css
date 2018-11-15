@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #1d1e1f;
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color: #cc0000;
+}
+
+.view-article {
+  height: auto;
+  background-color: #1d1e1f;
+}
+
+.view-article h2 {
+  font-weight: Semi-Bold;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.view-article h3 {
+  color: #63696f;
+  text-align: center;
+  padding-bottom: 30px;
+  opacity: 0.5;
+  font-size: 18px;
+}
+
+article {
+  padding: 30px;
+  background: white;
+  width: auto;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.intro {
+  color: #6b6464;
+  text-align: justify;
+}
+
+article p {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+article h3 {
+  color: black;
+  padding: 10px;
+  font-size: 18px;
+}
+
+article h4 {
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.author {
+  text-align: center;
+}
+
+article img {
+  padding-top: 30px;
+  max-width: 100%;
+  padding-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-return {
+  margin: auto;
+  margin-top: 20px;
+  height: 40px;
+  width: 200px;
+  background: #006fb4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: transform 0.2s;
+}
+
+.button-return:hover {
+  transform: scale(1.2);
+}
+
+.button-return a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* page view article*/
+.img-background {
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100vw;
+  padding-top: 10%;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-car {
+  background-image: url("../images/voiture.png");
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100vw;
+  padding-top: 10%;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-orage {
+  background-image: url("../images/orage.png");
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100vw;
+  padding-top: 10%;
+  background-size: cover;
+  background-position: center;
+}
+
+.container_button {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+}
+
+.button-read {
+  border-radius: 23px;
+  border: 1px solid #cc0000;
+  height: 46px;
+  width: 237px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  text-shadow: 0 1px 1px rgb(134, 1, 1);
+  font-weight: bold;
+
+}
+
+.button-read a {
+  color: #cc0000;
+  text-decoration: none;
+  justify-content: center;
+}
+
+/* debut footer */
+footer {
+  background: #1d1e1f;
+  height: 30vh;
+  width: 100vw;
+  position: relative;
+}
+
+.logo-footer img {
+  height: 14px;
+  width: 68px;
+  margin-top: 16px;
+  margin-left: 20px;
+}
+
+.product-footer {
+  color: white;
+  margin-left: 20px;
+  margin-top: 14px;
+  font-size: 14px;
+}
+
+.product-footer h5 {
+  margin-bottom: 10px;
+  color: #63696f;
+}
+
+.product-footer li a {
+  color: white;
+  text-decoration: none;
+}
+
+footer li {
+  margin-top: 5px;
+}
+
+.copyright {
+  color: #63696f;
+  text-align: center;
+  margin-top: 70px;
+}
+
+@media (min-width: 900px) {
+
+  /*media queries pour la page preview*/
+  .img-background {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100vw;
+    padding-top: 10%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-car {
+    background-image: url("../images/voiture.png");
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100vw;
+    padding-top: 10%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-orage {
+    background-image: url("../images/orage.png");
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100vw;
+    padding-top: 10%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-background h2 {
+    font-size: 32px;
+  }
+
+  /*media queries pour la page article*/
+
+  .view-article h3 {
+    color: #63696f;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 20px;
+    opacity: 0.5;
+  }
+
+  .view-article h2 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  article {
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    background: white;
+    width: auto;
+    height: auto;
+    margin-bottom: 30px;
+  }
+
+  .intro {
+    color: #6b6464;
+    text-align: justify;
+  }
+
+  article p {
+    margin-top: 20px;
+    text-align: justify;
+  }
+
+  article h3 {
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .author {
+    text-align: center;
+  }
+
+  article h4 {
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  article img {
+    padding-top: 30px;
+    max-width: 100%;
+    padding-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .author {
+    text-align: center;
+  }
+
+  /* FOOTER */
+  footer {
+    background: #1d1e1f;
+    height: 30vh;
+    width: 100vw;
+  }
+
+  .logo-footer img {
+    height: 14px;
+    width: 68px;
+    margin-top: 16px;
+    margin-left: 200px;
+  }
+
+  .product-footer {
+    color: white;
+    margin-left: 200px;
+    margin-top: 14px;
+    font-size: 14px;
+  }
+
+  .product-footer h5 {
+    margin-bottom: 10px;
+    color: #63696f;
+  }
+
+  .product-footer li a {
+    color: white;
+    text-decoration: none;
+    transition: color 200ms;
+  }
+
+  .product-footer li a:hover {
+    color: #006fb4;
+  }
+
+  footer li {
+    margin-top: 5px;
+  }
+
+  .copyright {
+    color: #63696f;
+    text-align: center;
+    margin-top: 70px;
+  }
+}
